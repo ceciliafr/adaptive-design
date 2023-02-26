@@ -1,38 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Adaptive design</h1>
 
-## Getting Started
+This is a project made with [Next.js](https://nextjs.org/) applying adaptive design concepts with focus on how to deal internally with client side and server side calls on mobile and desktop devices.
+For this, we use a middleware provided by next.js and use a context for the entire application to know which device the user is on when he calls a route in the browser.
+<p><strong>Bonus: in this application we use <a href="https://beta.reactjs.org/reference/react/useContext" target="_blank">Context<a/> to style it too through the <a href="https://styled-components.com/docs/api#themeprovider" target="_blank">themeProvider<a/>.</strong></p>
 
-First, run the development server:
+## Project's goal
+
+Be transparent to the user that if he accesses a client side or server side screen, different components would be rendered for desktop or mobile devices. As it happens on the [Amazon](https://www.amazon.com/) website, for example.
+
+## Technologies used
+
+<ul>
+  <li><a href="https://nextjs.org/" target="_blank">Next.js</a></li>
+  <li><a href="https://styled-components.com/" target="_blank">Styled-components</a></li>
+  <li><a href="https://www.typescriptlang.org/" target="_blank">Typescript</a></li>
+</ul>
+
+## How to Install and Run the Project
+
+First, install the necessary dependencies:
+
+```bash
+npm install
+# or
+yarn
+```
+
+Second, run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
 ```
+
+## Getting Started
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+You can get started by clicking the link in the navigation bar [server-side-page](http://localhost:3000/server-side-page).
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<img src="https://user-images.githubusercontent.com/54898441/221442611-33ad9539-e4f9-44bc-9395-efa81ff87faf.png" width="600px"/>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+After that, you can change your device using browser inspection and refresh the screen. You will notice that the URL has not changed, but its content has.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<img src="https://user-images.githubusercontent.com/54898441/221442886-d1153404-47d3-4fc6-bb02-036d2c147fa8.png" width="300px"/>
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributors
+<h3>Cecília Fernandes de Oliveira</h3>
+<ul>
+  <li>Github: <a href="https://github.com/ceciliafr/" target="_blank">https://github.com/ceciliafr/</a></li>
+  <li>Linkedin: <a href="https://www.linkedin.com/in/cissa-fr/" target="_blank">https://www.linkedin.com/in/cissa-fr/</a></li>
+</ul>
