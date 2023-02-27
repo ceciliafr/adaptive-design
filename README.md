@@ -46,6 +46,9 @@ After that, you can change your device using browser inspection and refresh the 
 
 <img src="https://user-images.githubusercontent.com/54898441/221442886-d1153404-47d3-4fc6-bb02-036d2c147fa8.png" width="300px"/>
 
+## More infos
+If you want to better understand the project, I wrote an article about it on Meduim, take a look at the link: [Adaptive Design with Next.js, Typescript, and Styled-components](https://medium.com/@ceciliafernandes514/adaptive-design-with-next-js-typescript-and-styled-components-12f979ef6a8b)
+
 ## Contributors
 <h3>Cecília Fernandes de Oliveira</h3>
 <ul>
